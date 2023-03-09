@@ -32,15 +32,15 @@ export default function Speaking() {
         <title>Speaking - Spencer Sharp</title>
         <meta
           name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
+          content="I've participated in several hackathon and CTF style competitions, in various roles and positions."
         />
       </Head>
       <SimpleLayout
-        title="I’ve spoken at events all around the world and been interviewed for many podcasts."
+        title="I've participated in several hackathon and CTF style competitions, in various roles and positions."
         intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
       >
         <div className="space-y-20">
-          <SpeakingSection title="Conferences">
+          <SpeakingSection title="CTF">
             <Appearance
               href="#"
               title="In space, no one can watch you stream — until now"
@@ -56,7 +56,7 @@ export default function Speaking() {
               cta="Watch video"
             />
           </SpeakingSection>
-          <SpeakingSection title="Podcasts">
+          <SpeakingSection title="Hackathon">
             <Appearance
               href="#"
               title="Using design as a competitive advantage"
