@@ -66,39 +66,32 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                I've been playing with computers and programs since I was 9 years old.
+                I was also subsequently hacked when I was 11 by a Wizard 101 gem generator. 
+                This was the event that drew me into Cyber Security and programming, since 
+                before this I had no idea that you could be hacked or that viruses existed.
+                I played around with C and joined CyberPatriot during high school. I've been 
+                studying CyberSecurity, and a variety of programming langauges in college.
+                One of these days, I'm going to have my revenge on that Wizard 101 cheat maker.
+                One of these days...
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                The one thing that I find funner than spending my weekends on CTF's and learning ancient programming languages is playing the guitar. I've been playing for about three years, and I'm still around the level of an amateur. It's always nice to have a hobby to keep yourself grounded, since it's easy to lose track of yourself when your jumping into the deep end of technology.  
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+                To level up as a hacker and go above being a script kiddy, I've been learning to create my own tools to handle CTF challenges. Even if the program doesn't end up working, I understand the underlying logic and protocol much better. After a lot of experience in failing to create a terminal UI for network captures and analysis, I know I need to use a parser, I know where to put the listener, and I know I can do it now with enough time and motivation.
               </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
-              </p>
+            <p>
+                My future aspirations are to get the PNPT, OSCP, and OSCE certifications to level up my game. I've had a lot of fun studying for the Security+ and Cysa+, learning more things than I thought I would've. I find certifications to be a mixed bag of feelings, on one side I don't want other people to think I'm chasing certifications, on the other side, I find that in the Cyber Security field certifications are very different. They aren't just a piece of paper, but a proof of capability and a source of knowledge. The one advice I'd give to anyone trying to learn CyberSecurity, is to go and study for the Security+. It is a mile wide and an inch deep, and gives a very broad level of knowledge on the field.
+            </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
+              <SocialLink href="https://twitter.com/Jagroop40074241" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://www.instagram.com/0xa1ibi/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
               <SocialLink

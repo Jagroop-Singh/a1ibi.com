@@ -13,6 +13,7 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoSacState from '@/images/logos/sac-state.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -135,25 +136,27 @@ function Newsletter() {
 
 function Resume() {
   let resume = [
-    {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
+    // {
+    //   company: 'Planetaria',
+    //   title: 'CEO',
+    //   logo: logoPlanetaria,
+    //   start: '2019',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear(),
+    //   },
+    // },
     {
       company: 'CSUS SSIS Department',
       title: 'Student Assistant',
+      logo: logoSacState,
       start: '2008',
       end: '2011',
     },
     {
       company: 'CSUS NSM Department',
       title: 'Student Assistant',
+      logo: logoSacState,
       start: '2008',
       end: '2011',
     },
@@ -260,22 +263,22 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/Jagroop40074241"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/0xa1ibi/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/Jagroop-Singh"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+                href="https://www.linkedin.com/in/jagroop-singh-414a3316a/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />

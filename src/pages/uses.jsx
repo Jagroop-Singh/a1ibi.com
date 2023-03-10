@@ -29,7 +29,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Spencer Sharp</title>
+        <title>Uses - Jagroop Singh</title>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."
@@ -37,79 +37,74 @@ export default function Uses() {
       </Head>
       <SimpleLayout
         title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        intro="One of the hardest things I've ever had to face was choosing my selection of tools and software that I use on my day to day. I think this will be true for everyone, since everyone has something different they like. Here's a big list of my favorite stuff."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it
-              through with our various launch simulations.
+            <Tool title="CPU: AMD 5800X">
+              Perfect CPU for running multiple virtual machines when hacking. Any usecase that requires more threads or cores, would probably be a better workload for cloud.
             </Tool>
-            <Tool title="Apple Pro Display XDR (Standard Glass)">
-              The only display on the market if you want something HiDPI and
-              bigger than 27”. When you’re working at planetary scale, every
-              pixel you can get counts.
+            <Tool title="Graphics Card: Nvidia RTX 3090">
+              I honestly got this for data science before realizing that I don't want to do data science. It also comes in handy for password cracking with hashcat. Gives you a leg up on the competition when you're running multiple brute force passoword attacks.
             </Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
+            <Tool title="Keychron Q1 QMK">
+              When you're typing for 80% of the day, it's probably worth investing in a good keyboard. A custom keyboard allows you to change the switches, keycaps, and height to just the way you want.
             </Tool>
-            <Tool title="Apple Magic Trackpad">
-              Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
-            </Tool>
-            <Tool title="Herman Miller Aeron Chair">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
+            <Tool title="Ikea Markus Chair">
+              A good chair is a good investment in any career where you sit on one for extended periods of time. This is a cheaper option for a comfy chair, and really helps you maintain focus for those multi hour competitions.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
-            </Tool>
-            <Tool title="iTerm2">
-              I’m honestly not even sure what features I get with this that
-              aren’t just part of the macOS Terminal but it’s what I use.
-            </Tool>
-            <Tool title="TablePlus">
-              Great software for working with databases. Has saved me from
-              building about a thousand admin interfaces for my various projects
-              over the years.
+            <Tool title="Neovim">
+              A great development environment, and it's neccessary to learn at least `vi` for CyberSecurity since that's installed by default on Linux machines.
             </Tool>
           </ToolsSection>
-          <ToolsSection title="Design">
-            <Tool title="Figma">
-              We started using Figma as just a design tool but now it’s become
-              our virtual whiteboard for the entire company. Never would have
-              expected the collaboration features to be the real hook.
+          <ToolsSection title="Note Taking">
+            <Tool title="CherryTree">
+              Perfect to store notes during CTF's. A no-hassle setup and the nodes are perfect for organization. Not the best for longterm notes, but perfect for short-term.
+            </Tool>
+            <Tool title="Obsidian">
+              Good for storing notes while studying. It has great features such as Internal links that let you connect notes, and a rich plugin environment.
             </Tool>
           </ToolsSection>
-          <ToolsSection title="Productivity">
-            <Tool title="Alfred">
-              It’s not the newest kid on the block but it’s still the fastest.
-              The Sublime Text of the application launcher world.
+          <ToolsSection title="Debugging">
+            <Tool title="GDB">
+              Great for debugging C applications
             </Tool>
-            <Tool title="Reflect">
-              Using a daily notes system instead of trying to keep things
-              organized by topics has been super powerful for me. And with
-              Reflect, it’s still easy for me to keep all of that stuff
-              discoverable by topic even though all of my writing happens in the
-              daily note.
+          </ToolsSection>
+          <ToolsSection title="Password Cracking">
+            <Tool title="Hashcat">
+              Best for attacking password hashes, utilizes the GPU for fast cracking speeds.
             </Tool>
-            <Tool title="SavvyCal">
-              Great tool for scheduling meetings while protecting my calendar
-              and making sure I still have lots of time for deep work during the
-              week.
+            <Tool title="JohnTheRipper">
+              Best for attacking passoword protected files. Comes with a suite of tools that can transform a file (i.e. ZIP) into a hash format that it can then crack. Great for workstations that don't have a strong or any GPU.
             </Tool>
-            <Tool title="Focus">
-              Simple tool for blocking distracting websites when I need to just
-              do the work and get some momentum going.
+          </ToolsSection>
+          <ToolsSection title="Web Pentesting">
+            <Tool title="Burpsuite">
+              Industry standard tool for web application pentesting. Creates a site map and request history while attacking. Allows caputuring attacks with a proxy, and sending the request to Intruder or other modules for attacks.
+            </Tool>
+            <Tool title="ZAP">
+              Free alternative to Burpsuite. This doesn't rate-limit brute force attacks, but has a smaller selection of tools and modules. I don't generally use this, if you know enough scripting or have enough programming knowledge, you can create an attack on the go with a free Burpsuite subscription. 
+            </Tool>
+            <Tool title="Feroxbuster">
+              Directory/file brute forcer, great for finding hidden folders on a web server. I run this during the beginning of an attack with nmap as part of enumeration.
+            </Tool>
+            <Tool title="Ffuf">
+              Fuzzing tool. I use this when enumerating for vhost/dns subdomains, or when fuzzing for api parameters. 
+            </Tool>
+          </ToolsSection>
+          <ToolsSection title="Network Pentesting">
+            <Tool title="Nmap">
+              Great for enumerating networks
+            </Tool>
+            <Tool title="Wireshark">
+              Great for analyzing packet captures to scan for malicious traffic and find interesting files
+            </Tool>
+          </ToolsSection>
+          <ToolsSection title="Stegonography">
+            <Tool title="AperiiSolve">
+              Online Stegonography tool to analyze png and jpeg files. Great for beginner or easy Steg challenges. More complicated challenges require a wide set of tools and knowledge to attempt to solve.
             </Tool>
           </ToolsSection>
         </div>
