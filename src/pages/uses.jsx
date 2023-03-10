@@ -45,10 +45,10 @@ export default function Uses() {
               Perfect CPU for running multiple virtual machines when hacking. Any usecase that requires more threads or cores, would probably be a better workload for cloud.
             </Tool>
             <Tool title="Graphics Card: Nvidia RTX 3090">
-              I honestly got this for data science before realizing that I don't want to do data science. It also comes in handy for password cracking with hashcat. Gives you a leg up on the competition when you're running multiple brute force passoword attacks.
+              I honestly got this for data science before realizing that I don&apos;t want to do data science. It also comes in handy for password cracking with hashcat. Gives you a leg up on the competition when you&apos;re running multiple brute force passoword attacks.
             </Tool>
             <Tool title="Keychron Q1 QMK">
-              When you're typing for 80% of the day, it's probably worth investing in a good keyboard. A custom keyboard allows you to change the switches, keycaps, and height to just the way you want.
+              When you&apos;re typing for 80% of the day, it&apos;s probably worth investing in a good keyboard. A custom keyboard allows you to change the switches, keycaps, and height to just the way you want.
             </Tool>
             <Tool title="Ikea Markus Chair">
               A good chair is a good investment in any career where you sit on one for extended periods of time. This is a cheaper option for a comfy chair, and really helps you maintain focus for those multi hour competitions.
@@ -56,12 +56,12 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="Neovim">
-              A great development environment, and it's neccessary to learn at least `vi` for CyberSecurity since that's installed by default on Linux machines.
+              A great development environment, and it&apos;s neccessary to learn at least `vi` for CyberSecurity since that&apos;s installed by default on Linux machines.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Note Taking">
             <Tool title="CherryTree">
-              Perfect to store notes during CTF's. A no-hassle setup and the nodes are perfect for organization. Not the best for longterm notes, but perfect for short-term.
+              Perfect to store notes during CTF&apos;s. A no-hassle setup and the nodes are perfect for organization. Not the best for longterm notes, but perfect for short-term.
             </Tool>
             <Tool title="Obsidian">
               Good for storing notes while studying. It has great features such as Internal links that let you connect notes, and a rich plugin environment.
@@ -77,7 +77,7 @@ export default function Uses() {
               Best for attacking password hashes, utilizes the GPU for fast cracking speeds.
             </Tool>
             <Tool title="JohnTheRipper">
-              Best for attacking passoword protected files. Comes with a suite of tools that can transform a file (i.e. ZIP) into a hash format that it can then crack. Great for workstations that don't have a strong or any GPU.
+              Best for attacking passoword protected files. Comes with a suite of tools that can transform a file (i.e. ZIP) into a hash format that it can then crack. Great for workstations that don&apos;t have a strong or any GPU.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Web Pentesting">
@@ -85,7 +85,7 @@ export default function Uses() {
               Industry standard tool for web application pentesting. Creates a site map and request history while attacking. Allows caputuring attacks with a proxy, and sending the request to Intruder or other modules for attacks.
             </Tool>
             <Tool title="ZAP">
-              Free alternative to Burpsuite. This doesn't rate-limit brute force attacks, but has a smaller selection of tools and modules. I don't generally use this, if you know enough scripting or have enough programming knowledge, you can create an attack on the go with a free Burpsuite subscription. 
+              Free alternative to Burpsuite. This doesn&apos;t rate-limit brute force attacks, but has a smaller selection of tools and modules. I don&apos;t generally use this, if you know enough scripting or have enough programming knowledge, you can create an attack on the go with a free Burpsuite subscription. 
             </Tool>
             <Tool title="Feroxbuster">
               Directory/file brute forcer, great for finding hidden folders on a web server. I run this during the beginning of an attack with nmap as part of enumeration.
