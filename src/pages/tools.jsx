@@ -25,19 +25,19 @@ function Tool({ title, href, children }) {
   )
 }
 
-export default function Uses() {
+export default function Tools() {
   return (
     <>
       <Head>
-        <title>Uses - Jagroop Singh</title>
+        <title>Tools - Jagroop Singh</title>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="One of the hardest things I've ever had to face was choosing my selection of tools and software that I use on my day to day. I think this will be true for everyone, since everyone has something different they like. Here's a big list of my favorite stuff."
+        title="My Toolbelt. There are many like it in the world, but this one is mine"
+        intro="One of the hardest choices I've had to make in the beginning of my journey, was choosing which tool or program to master. Now I've built my repotoire and know what I like to use, hopefully this comes in handy for you!"
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">

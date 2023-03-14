@@ -3,55 +3,55 @@ import Head from 'next/head'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { formatDate } from '@/lib/formatDate'
-import { getAllArticles } from '@/lib/getAllArticles'
+import { getAllWriteups } from '@/lib/getAllWriteups'
 
-function Article({ article }) {
+function Writeup({ writeup }) {
   return (
-    <article className="md:grid md:grid-cols-4 md:items-baseline">
+    <writeup className="md:grid md:grid-cols-4 md:items-baseline">
       <Card className="md:col-span-3">
-        <Card.Title href={`/articles/${article.slug}`}>
-          {article.title}
+        <Card.Title href={`/writeups/tryhackme/${writeup.slug}`}>
+          {writeup.title}
         </Card.Title>
         <Card.Eyebrow
           as="time"
-          dateTime={article.date}
+          dateTime={writeup.date}
           className="md:hidden"
           decorate
         >
-          {formatDate(article.date)}
+          {formatDate(writeup.date)}
         </Card.Eyebrow>
-        <Card.Description>{article.description}</Card.Description>
-        <Card.Cta>Read article</Card.Cta>
+        <Card.Description>{writeup.description}</Card.Description>
+        <Card.Cta>Read writeup</Card.Cta>
       </Card>
       <Card.Eyebrow
         as="time"
-        dateTime={article.date}
+        dateTime={writeup.date}
         className="mt-1 hidden md:block"
       >
-        {formatDate(article.date)}
+        {formatDate(writeup.date)}
       </Card.Eyebrow>
-    </article>
+    </writeup>
   )
 }
 
-export default function ArticlesIndex({ articles }) {
+export default function WriteupsIndex({ writeups }) {
   return (
     <>
       <Head>
-        <title>Articles - Jagroop Singh</title>
+        <title>Writeups - Jagroop Singh</title>
         <meta
           name="description"
           content="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
         />
       </Head>
       <SimpleLayout
-        title="Writing on programming languages, tools, and events in Cybersecurity."
-        intro="My analysis on the changes and current status of programs, tools, and updates in the cybersecurity space."
+        title="Solving PicoGym problems"
+        intro="Writeups ordered by category, and listed in terms of difficulty."
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
+            {writeups.map((writeup) => (
+              <Writeup key={writeup.slug} writeup={writeup} />
             ))}
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function ArticlesIndex({ articles }) {
 export async function getStaticProps() {
   return {
     props: {
-      articles: (await getAllArticles()).map(({ component, ...meta }) => meta),
+      writeups: (await getAllWriteups("pico")).map(({ component, ...meta }) => meta),
     },
   }
 }
