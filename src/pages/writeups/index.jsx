@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import { ImageCard } from '@/components/ImageCard'
 import { Section } from '@/components/Section'
-import { SquareLayout } from '@/components/SquareLayout'
 
 import htbImage from '@/images/logos/logo-htb.svg'
 import thmImage from '@/images/logos/tryhackme_logo_full.svg'
