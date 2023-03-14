@@ -11,6 +11,8 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
+import hackermanImage from '@/images/hackerman.jpg'
+
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -44,7 +46,7 @@ export default function About() {
         <title>About - Jagroop Singh</title>
         <meta
           name="description"
-          content="I&apos;m Jagroop Singh. I program with Rust, where I fight the compiler."
+          content="I&apos;m Jagroop Singh. I&apos;m stuck in vim, and I program in Rust"
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -52,7 +54,7 @@ export default function About() {
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
-                src={portraitImage}
+                src={hackermanImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
@@ -61,8 +63,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Jagroop Singh. I program with Rust, where I fight the
-              compiler.
+                I&apos;m Jagroop Singh. I like it when errors are descriptive, and issues are reproducible.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
