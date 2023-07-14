@@ -63,28 +63,12 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                I&apos;m Jagroop Singh. I like it when errors are descriptive, and issues are reproducible.
+                About Me
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I&apos;ve been playing with computers and programs since I was 9 years old.
-                I was also subsequently hacked when I was 11 by a Wizard 101 gem generator. 
-                This was the event that drew me into Cyber Security and programming, since 
-                before this I had no idea that you could be hacked or that viruses existed.
-                I played around with C and joined CyberPatriot during high school. I&apos;ve been 
-                studying CyberSecurity, and a variety of programming langauges in college.
-                One of these days, I&apos;m going to have my revenge on that Wizard 101 cheat maker.
-                One of these days...
+                Hey, nice to meet you. My name is Jagroop Singh, and I enjoy coffee and guitars. I've been into computers since high school where I started in CyberPatriot and fell in love with CyberSecurity and setting up computer networks. In college I've been a member of the Cyber Defense Club, as well as an active member of HackTheBox and TryHackMe. I enjoy solving CTF challenges and consider myself a jack of many trades when it comes to CTF categories. I particularly enjoy Binary Exploitation and Reverse Engineering with Ghidra and Binary Ninja. Some of my hobbies include grilling and speed typing. 
               </p>
-              <p>
-                The one thing that I find funner than spending my weekends on CTF&apos;s and learning ancient programming languages is playing the guitar. I&apos;ve been playing for about three years, and I&apos;m still around the level of an amateur. It&apos;s always nice to have a hobby to keep yourself grounded, since it&apos;s easy to lose track of yourself when your jumping into the deep end of technology.  
-              </p>
-              <p>
-                To level up as a hacker and go above being a script kiddy, I&apos;ve been learning to create my own tools to handle CTF challenges. Even if the program doesn&apos;t end up working, I understand the underlying logic and protocol much better. After a lot of experience in failing to create a terminal UI for network captures and analysis, I know I need to use a parser, I know where to put the listener, and I know I can do it now with enough time and motivation.
-              </p>
-            <p>
-                My future aspirations are to get the PNPT, OSCP, and OSCE certifications to level up my game. I&apos;ve had a lot of fun studying for the Security+ and Cysa+, learning more things than I thought I would&apos;ve. I find certifications to be a mixed bag of feelings, on one side I don&apos;t want other people to think I&apos;m chasing certifications, on the other side, I find that in the Cyber Security field certifications are very different. They aren&apos;t just a piece of paper, but a proof of capability and a source of knowledge. The one advice I&apos;d give to anyone trying to learn CyberSecurity, is to go and study for the Security+. It is a mile wide and an inch deep, and gives a very broad level of knowledge on the field.
-            </p>
             </div>
           </div>
           <div className="lg:pl-20">

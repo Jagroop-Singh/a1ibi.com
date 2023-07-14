@@ -34,11 +34,11 @@ export default function Speaking() {
         <title>Speaking - Jagroop Singh</title>
         <meta
           name="description"
-          content="Competitions are the best way to grow your skills in CyberSecurity and Programming. These are some of the ones I've been to and highly recommmend!"
+          content="A list of comeptitions I've participated in"
         />
       </Head>
       <SimpleLayout
-        title="These are some competitions I've been to and highly recommmend!"
+        title="A list of competitions I've participated in"
         intro="One of my favorite ways to grow my skills is to join competitions and working with a team of highly competitent individuals. This allows you to practice with a wide array of subjects and share what you've learned with others. I highly recommend anyone interested in CyberSecurity to join a CTF at any skill level."
       >
         <div className="space-y-20">
