@@ -67,7 +67,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Hey, nice to meet you. My name is Jagroop Singh, and I enjoy coffee and guitars. I've been into computers since high school where I started in CyberPatriot and fell in love with CyberSecurity and setting up computer networks. In college I've been a member of the Cyber Defense Club, as well as an active member of HackTheBox and TryHackMe. I enjoy solving CTF challenges and consider myself a jack of many trades when it comes to CTF categories. I particularly enjoy Binary Exploitation and Reverse Engineering with Ghidra and Binary Ninja. Some of my hobbies include grilling and speed typing. 
+                Hey, nice to meet you. My name is Jagroop Singh, and I enjoy coffee and guitars. I&apos;ve been into computers since high school where I started in CyberPatriot and fell in love with CyberSecurity and setting up computer networks. In college I&apos;ve been a member of the Cyber Defense Club, as well as an active member of HackTheBox and TryHackMe. I enjoy solving CTF challenges and consider myself a jack of many trades when it comes to CTF categories. I particularly enjoy Binary Exploitation and Reverse Engineering with Ghidra and Binary Ninja. Some of my hobbies include grilling and speed typing. 
               </p>
             </div>
           </div>

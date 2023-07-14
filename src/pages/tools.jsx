@@ -37,7 +37,7 @@ export default function Tools() {
       </Head>
       <SimpleLayout
         title="My Toolbelt. A set of carefully selected options to optimize my workflow"
-        intro="One of the hardest choices I've had to make in the beginning of my journey, was choosing which tool or program to master. Now I've built my repotoire and know what I like to use, hopefully this comes in handy for you!"
+        intro="One of the hardest choices I&apos;ve had to make in the beginning of my journey, was choosing which tool or program to master. Now I&apos;ve built my repotoire and know what I like to use, hopefully this comes in handy for you!"
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
@@ -51,7 +51,7 @@ export default function Tools() {
               When you&apos;re typing for 80% of the day, it&apos;s probably worth investing in a good keyboard. A custom keyboard allows you to change the switches, keycaps, and height to just the way you want.
             </Tool>
             <Tool title="Ikea Markus Chair">
-              The Markus is a great chair that is comfortable to sit in, especially when you're sitting for multiple hours every day. It's great for ergonomics, and if you want to spend a little more, a standing desk can also be a great improvement for your health.
+              The Markus is a great chair that is comfortable to sit in, especially when you&apos;re sitting for multiple hours every day. It&apos;s great for ergonomics, and if you want to spend a little more, a standing desk can also be a great improvement for your health.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Note Taking">
